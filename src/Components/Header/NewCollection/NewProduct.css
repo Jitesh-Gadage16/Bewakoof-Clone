@@ -1,0 +1,40 @@
+.product-dsc{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.product-title{
+    /* position: absolute;
+    left: 15px; */
+    text-align: left;
+    padding: 10px 0 0px 25px;
+}
+.product-title h3{
+    font-size: 15px;
+    font-family: montserrat,sans-serif;
+    color: #2d2d2d;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: normal;
+}
+.product-price{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    float: left;
+    font-family: montserrat-bold,sans-serif;
+    padding: 5px 0 10px 25px;
+
+}
+.product-price span{
+    font-size: 15px;
+    padding: 0 0 0 5px;
+    font-weight: 300;
+    text-decoration: line-through;
+    /* float: left; */
+}
+
+

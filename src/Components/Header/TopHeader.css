@@ -1,0 +1,11 @@
+.TopHeader{
+    width: 100%;
+    height: min-content;
+    font-size: 8px;
+    background-color: #eee;
+}
+.left-col a{
+    padding: 0 10px;
+    color:rgba(0,0,0,.8);
+    font-size: 10px;
+}

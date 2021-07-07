@@ -1,0 +1,32 @@
+.Hero{
+    padding: 20px;
+}
+
+.Hero__container{
+    width: 100%;
+}
+.Hero__Row{
+    /* width: 330px; 
+    height: 330px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    /* justify-content: start; */
+}
+.Hero__col{
+    width: 50px!important;
+}
+
+.Hero__one img{
+    border-radius: 20px;
+    width: 465px;
+    /* width: 528.571px; */
+}
+.widget_slider_Col img{
+   border-radius: 10px;
+}
+
+.Banner img{
+    border-radius: 10px;
+}

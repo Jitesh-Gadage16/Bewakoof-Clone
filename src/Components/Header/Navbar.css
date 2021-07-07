@@ -1,0 +1,73 @@
+.Navbar{
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+.left-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.right-menu{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: right;
+   margin-left: 20px;
+}
+.left-menu.col ,.right-menu.col{
+    height: 60px;
+}
+.nav-menus ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+.nav-menus ul li{
+    margin: 0 20px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.nav-menus ul li:hover{
+    border-bottom: 2px solid yellow;
+}
+.Logo-div{
+    height: 52px;
+}
+.Logo-div img{
+    padding: 10px;
+
+    height: 52px;
+}
+ input[type="text"]{
+    width: 180%;
+    font-size: 12px;
+    background-color: #eee;
+    /* width: 100%; */
+}
+input[type="text"]:hover{
+    background-color: white;
+}
+
+.search-box{
+    border-radius: 10px;
+    width: 300px;
+    margin: 5px 10px;
+    padding: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #eee;
+}
+.login{
+    align-items: center;
+    border-left: 2px solid #eee;
+    line-height: 50px;
+}
+.whislist-icon ,.cart-icon{
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
